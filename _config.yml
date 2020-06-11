@@ -1,0 +1,31 @@
+# Site
+name: "Breva Solutions"
+title: "Breva Solutions"
+description: "Our perspectives on Africa, business, cyber-security and everything in between."
+logo: 'assets/icon/favicon-96x96.png'
+favicon: 'assets/icon/favicon-96x96.png'
+baseurl:
+google_analytics: 'UA-140943259-2'
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, brevasolutions-v2.iml]
